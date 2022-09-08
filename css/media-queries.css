@@ -113,10 +113,16 @@ body {
         margin: auto;
         width: 100%;
     }
-    section {
+.main {
+        box-sizing: border-box;
         display: inline;
-        width: 45%;
+        width: 60%;
+        float: left;
+        margin: .2em;
     }
+footer {
+    margin-top: 15em;
+}
 }
 
 
