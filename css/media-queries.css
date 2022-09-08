@@ -1,9 +1,61 @@
+body {
+    font-family: sans-serif;
+}
+@media screen and (max-width: 650px) {
+    body {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+}
 @media screen and (max-width: 650px) {
     .hidden-on-desktop {
+        display: flex;
+        justify-content: center;
+        margin: auto;
         box-sizing: border-box;
         width: calc(100% - 2em);
         background-color: #b2eeee;
         border: .1rem solid #e5e5e5;
+        padding: 1rem;
     }
+}
+ .hidden-on-desktop a {
+     text-decoration: none;
+     color: #000000;
+ }
 
+@media screen and (max-width: 650px) {
+    h1 {
+        margin: auto;
+        font-size: 3.15em;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    footer {
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    li {
+        background-color: #e5e5e5;
+        margin: .25rem;
+        /*box-sizing: border-box;*/
+        padding: 1rem 100%;
+    }
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    box-sizing: border-box;
+    width: calc(100% - 2em);
+    /*background-color: #b2eeee;*/
+    /*border: .1rem solid #e5e5e5;*/
+    padding: 1rem;
+    list-style: none;
+    flex-flow: column;
 }
